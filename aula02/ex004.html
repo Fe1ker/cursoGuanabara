@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Terceiro Programa</title>
+</head>
+<style>
+    body{
+        color : white;
+        font: normal 17pt arial;
+    }
+</style>
+<body bgcolor="black">
+    <script>
+        var nome = window.prompt("Qual é o seu nome ?");
+        document.write(`Olá <strong>${nome}</strong>, Seu nome tem ${nome.length} letras<br>`);
+        document.write(`Seu nome em letra maiuscula é ${nome.toUpperCase()}<br>`);
+        document.write(`Seu nome em letra minuscula é ${nome.toLowerCase()}`);
+    </script>
+</body>
+</html>
